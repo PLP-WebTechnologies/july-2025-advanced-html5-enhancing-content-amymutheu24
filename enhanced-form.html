@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="description" content="a website on forms,tables and definition lists">
+</head>
+
+<body>
+    <h2>definition list</h2>
+    <dl>
+        <dt>UAE</dt>
+        <dd>United Arab Emirates</dd>
+    </dl>
+    <h2>nested list</h2>
+    <ol>
+        <li>cars
+            <ol type="i">
+                <li>toyota
+                    <ol>
+                        <li>camry</li>
+                        <li>corolla</li>
+                    </ol>
+                </li>
+                <li>polo</li>
+                <li>mazda</li>
+                <li>nissan</li>
+
+            </ol>
+        </li>motorbikes
+        <ul type="">
+            <li>yamaha</li>
+            <li>honda</li>
+            <li>kawaski</li>
+        </ul>
+        </li>
+    </ol>
+    <h2>AUDIO AND VIDEO</h2>
+
+    <h3>audio</h3>
+    <audio controls>
+        <source src="week2/alice_kimanzi_waambie_official_crm_video_mp3_78001.mp3" type="audio/mp3" height="500px"
+            width="350px">
+        your browser does not support audio playback
+    </audio>
+
+    <h3>video</h3>
+    <video controls>
+        <source src="video_sample.mp4" height="1px" width="500px">
+        your browser does not support audio playback
+    </video>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Gender</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Amy Muema</td>
+                <td>Female</td>
+                <td>Kenya</td>
+            </tr>
+            <tr>
+                <td>kirui Daniel</td>
+                <td>Male</td>
+                <td>uk</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>forms</h2>
+    <form action="" method="">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="password">password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="email">e-mail:</label>
+        <input type="email" id="email" name="email" placeholder="amymutheu05@gmail.comment"><br><br>
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="gender" name="gender" value="male">Male
+        <input type="radio" id="gender" name="gender" value="male">Female<br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="Cameroon">Cameroon</option>
+            <option value="Rwanda">Rwanda</option>
+            <option value="Burundi">Burundi</option>
+        </select><br><br>
+
+        <label for="comments">comment:</label>
+        <textarea id="comments" name="comments" rows="4" columns="4" maxlength="200">CLICK HERE TO START</textarea>
+
+    </form>
+</body>
+
+</html>
